@@ -8,9 +8,9 @@ The Aprimo Power Tool AI Translation application will translate metadata fields 
 - Azure Subscription
 - Azure Translator Resource
 
-:::warning
-This application is built to be used with Azure, if you would like to customize it for a different API translator service your organization will need to perform that customization. Aprimo offers this application Open Source as is.
-:::
+
+> ⚠️ This application is built to be used with Azure, if you would like to customize it for a different API translator service your organization will need to perform that customization. Aprimo offers this application Open Source as is.
+
 
 ### Local Setup
 - Clone this Repo.
