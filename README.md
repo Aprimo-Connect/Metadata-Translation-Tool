@@ -1,7 +1,8 @@
 ### Overview
 The Aprimo Power Tool AI Translation application will translate metadata fields in **Aprimo DAM** and update the metadata field in the target language with the translation. This application integrates with [Aprimo DAM Rules](https://developers.aprimo.com/docs/webhooks-and-rules/dam-rules), a powerful webhook-based automation system in Aprimo DAM. Rules allow for extensive customization in trigger conditions so the AI Translation service can run when it best suits your organization's use case. Once triggered, the Rule will send a webhook to this application, which will organize the data sent and call an [Azure Translator](https://azure.microsoft.com/en-us/products/ai-services/ai-translator) to translate the data, and then update the appropriate fields in Aprimo DAM with the new translated data.
 
-> ⚠️ This application is built to be used with Azure, if you would like to customize it for a different API translator service your organization will need to perform that customization. Aprimo offers this application Open Source as is.
+### Aprimo's Open Source Policy 
+This code is provided by Aprimo as-is to serve as an example of how you might solve a particular business problem. It is not intended to be deployed directly into Production. You may submit issues with the code, however, Aprimo may not provide fixes. It is expected that the consumer of this code will take on responsibility to support any deployments or executions of this code. If you would like Aprimo to provide a packaged solution for what this code provides, please reach out to your account contact, who can connect you with our technical services team or another partner that might be able to create a production-ready and production supported solution for you. This code may call out to other non-Aprimo services, and you may need your own API keys or access to those services as well, which Aprimo does not provide.
 
 ### Prerequisites
 - Aprimo DAM
