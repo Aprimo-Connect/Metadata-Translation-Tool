@@ -3,7 +3,6 @@ const yup = require("yup");
 // Define the validation schema using Yup
 const webhookSchema = yup.object({
   recordId: yup.string().required("recordId is required."), // Ensure recordId is a non-empty string
-
   translations: yup
     .array()
     .of(

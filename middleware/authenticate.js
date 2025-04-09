@@ -8,7 +8,6 @@ const authenticate = (req, res, next) => {
     return res.status(401).json({ error: "Unauthorized: Missing or invalid Bearer token." });
   }
   
-
   // Extract the actual token (everything after "Bearer ")
   const token = authHeader.split(" ")[1];
 
