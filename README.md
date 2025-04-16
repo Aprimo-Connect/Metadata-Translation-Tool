@@ -2,7 +2,15 @@
 The Aprimo Power Tool AI Translation application will translate metadata fields in **Aprimo DAM** and update the metadata field in the target language with the translation. This application integrates with [Aprimo DAM Rules](https://developers.aprimo.com/docs/webhooks-and-rules/dam-rules), a powerful webhook-based automation system in Aprimo DAM. Rules allow for extensive customization in trigger conditions so the AI Translation service can run when it best suits your organization's use case. Once triggered, the Rule will send a webhook to this application, which will organize the data sent and call an [Azure Translator](https://azure.microsoft.com/en-us/products/ai-services/ai-translator) to translate the data, and then update the appropriate fields in Aprimo DAM with the new translated data.
 
 ### Aprimo's Open Source Policy 
-This code is provided by Aprimo as-is to serve as an example of how you might solve a particular business problem. It is not intended to be deployed directly into Production. You may submit issues with the code, however, Aprimo may not provide fixes. It is expected that the consumer of this code will take on responsibility to support any deployments or executions of this code. If you would like Aprimo to provide a packaged solution for what this code provides, please reach out to your account contact, who can connect you with our technical services team or another partner that might be able to create a production-ready and production supported solution for you. This code may call out to other non-Aprimo services, and you may need your own API keys or access to those services as well, which Aprimo does not provide.
+This code is provided by Aprimo _as-is_ as an example of how you might solve a specific business problem. It is not intended for direct use in Production without modification.
+
+You are welcome to submit issues or feedback to help us improve visibility into potential bugs or enhancements. Aprimo may, at its discretion, address minor bugs, but does not guarantee fixes or ongoing support.
+
+It is expected that developers who clone or use this code take full responsibility for supporting, maintaining, and securing any deployments derived from it.
+
+If you are interested in a production-ready and supported version of this solution, please contact your Aprimo account representative. They can connect you with our technical services team or a partner who may be able to build and support a packaged implementation for you.
+
+Please note: This code may include references to non-Aprimo services or APIs. You are responsible for acquiring any required credentials or API keys to use those services—Aprimo does not provide them.
 
 ### Prerequisites
 - Aprimo DAM
