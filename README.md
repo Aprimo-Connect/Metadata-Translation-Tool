@@ -12,6 +12,11 @@ If you are interested in a production-ready and supported version of this soluti
 
 Please note: This code may include references to non-Aprimo services or APIs. You are responsible for acquiring any required credentials or API keys to use those services—Aprimo does not provide them.
 
+### Video Demonstration
+<video width="640" height="360" controls>
+  <source src="https://assets.aprimo.com/c1a07797-f505-427a-b0d4-b2cd00f61e7b/Metadata%20Translation%20Tool%20Demo.MP4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ### Prerequisites
 - Aprimo DAM
 - Azure Subscription
