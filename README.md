@@ -14,10 +14,8 @@ Please note: This code may include references to non-Aprimo services or APIs. Yo
 
 ### Video Demonstration
 
-<video width="640" height="360" controls>
-  <source src="https://assets.aprimo.com/c1a07797-f505-427a-b0d4-b2cd00f61e7b/Metadata%20Translation%20Tool%20Demo.MP4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/395a4b1b-84f2-46fa-b054-dedc1134a495
+
 
 ### Prerequisites
 - Aprimo DAM
